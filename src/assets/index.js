@@ -9,5 +9,5 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-
-export { imgHero, imgAbout, imgCourse, userImg1, userImg2, userImg3, menu, facebook, instagram, linkedin, twitter };
+import arrowUp from "./arrow-up.png";
+export { imgHero, imgAbout, imgCourse, userImg1, userImg2, userImg3, menu, facebook, instagram, linkedin, twitter, arrowUp };

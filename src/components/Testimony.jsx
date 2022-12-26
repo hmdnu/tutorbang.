@@ -10,6 +10,7 @@ const Testimony = () => (
     <div className="flex max-md:flex-col justify-evenly gap-5 items-center md:mt-10 mt-5">
       {testimonials.map((testi, index) => (
         <div
+          key={index}
           className={`
         ${index === 0 ? "bg-[#ffa653]" : ""} 
         ${index === 1 ? "bg-[#FFCF53]" : ""} 
