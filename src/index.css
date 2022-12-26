@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.liHover:after {
+  content: "";
+  background-color: #1a1c20;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 10px;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.liHover:hover:after {
+  opacity: 1;
+}
